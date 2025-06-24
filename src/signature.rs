@@ -10,11 +10,12 @@ pub struct Signature<L: Level> {
 }
 
 impl<L: Level> Signature<L> {
-    /// Get the bytes of the signature
+    /// Get the bytes of the signature.
     pub fn bytes(&self) -> &[u8] {
         &self.bytes.as_ref()
     }
 
+    /// Create a signature from a set of bytes.
     pub fn from_bytes(bytes: L::Signature) -> Signature<L> {
         Signature { bytes }
     }
