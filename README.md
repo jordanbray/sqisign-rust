@@ -44,6 +44,11 @@ cargo test --release
 
 Once you get your repo updated, you are good to go.
 
+## Docs
+
+I have not published the documentation anywhere.  To view it, check out
+the repo and use `cargo doc --open` to view it in your web browser.
+
 ## Safety
 
 I have done everything I can to make this library safe for consumption, by
