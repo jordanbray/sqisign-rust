@@ -12,4 +12,9 @@ impl<L: Level> PublicKey<L> {
     pub fn bytes(&self) -> &[u8] {
         self.bytes.as_ref()
     }
+
+    /// Create a public key from bytes.
+    pub fn from_bytes(bytes: L::PublicKey) -> PublicKey<L> {
+        PublicKey { bytes }
+    }
 }

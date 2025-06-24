@@ -94,7 +94,7 @@ This library also exposes 4 types to the user which contains useful data:
 * `Signature<Level>` - This stores a signature, and contains the `verify` function.
 
 In addition, `PublicKey<Level>`, `PrivateKey<Level>` and `Signature<Level>` all contain
-a `bytes` method which gives you their contents without any ceremony.
+a `bytes` and `from_bytes` method which gives you their contents without any ceremony.
 
 ## Generic Arrays
 

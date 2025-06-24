@@ -13,6 +13,11 @@ impl<L: Level> PrivateKey<L> {
         self.bytes.as_ref()
     }
 
+    /// Create a private key from bytes.
+    pub fn from_bytes(bytes: L::PrivateKey) -> PrivateKey<L> {
+        PrivateKey { bytes }
+    }
+
     /// This signs a message into _only_ a `Signature`.
     ///
     /// Despite the sqisign public API, we do _not_ include

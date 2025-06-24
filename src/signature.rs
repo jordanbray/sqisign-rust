@@ -15,6 +15,10 @@ impl<L: Level> Signature<L> {
         &self.bytes.as_ref()
     }
 
+    pub fn from_bytes(bytes: L::Signature) -> Signature<L> {
+        Signature { bytes }
+    }
+
     /// Verify a signature is valid given a public key.
     pub fn verify(&self, msg: &[u8], public_key: &PublicKey<L>) -> bool {
         unsafe {
