@@ -73,6 +73,10 @@ I use the `stacker` crate which increases the stack size to accomodate
 the increased memory usage.  This is all done automatically, so you can
 live in blissful ignorance that it has been performed.
 
+Basically, just use the library like you would any other library, create
+as many threads as you like, and it's fine.  Don't worry about it.  You don't
+need to get clever with the rust `ThreadBuilder` or anything like that.
+
 ## Architecture
 
 This library exposes 3 opaque types: `Lvl1`, `Lvl3`, and `Lvl5`.  They are
