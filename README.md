@@ -79,9 +79,10 @@ need to get clever with the rust `ThreadBuilder` or anything like that.
 
 ## Architecture
 
-This library exposes 3 opaque types: `Lvl1`, `Lvl3`, and `Lvl5`.  They are
-only used as markers to determine which functions in `the-sqisign` to call,
-and how much memory to allocate for keys/signatures.  This library also
+This library exposes 3 types: `Lvl1`, `Lvl3`, and `Lvl5`.  They are
+used as markers to determine which functions in `the-sqisign` to call,
+and how much memory to allocate for keys/signatures.  They also expose the
+number of bytes each `Level` uses for each object type.  This library also
 exposes the `Level` trait to allow code to be generic over the `Level`.
 
 This library also exposes 4 types to the user which contains useful data:
