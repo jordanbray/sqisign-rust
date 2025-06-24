@@ -1,7 +1,7 @@
 use crate::{Level, PublicKey};
 
 /// Store _just_ the `Signature` portion of the signed message
-/// of lvl1 SQISign.
+/// with SQISign.
 ///
 /// This does not store a copy of the message.
 #[derive(Copy, Clone, PartialEq, PartialOrd, Debug)]
