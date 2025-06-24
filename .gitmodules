@@ -1,0 +1,3 @@
+[submodule "the-sqisign"]
+	path = the-sqisign
+	url = https://github.com/SQIsign/the-sqisign
