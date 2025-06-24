@@ -17,6 +17,9 @@ There are many reasons to get post-quantum cryptography in the hands of users
 sooner rather than later.  This algorithm caught my attention because the size
 of the public key and signature are very small.
 
+Having a rust version of the library increases accessibility to the new
+library, and gets more eyes (and fingers) hacking on the new algorithms.
+
 ## Building
 
 Building this (right now) is somewhat complicated.  That's because:
