@@ -1,6 +1,6 @@
 use crate::Level;
 
-/// This stores a sqisign lvl1 public key.
+/// This stores a sqisign public key.
 #[derive(Copy, Clone, PartialEq, PartialOrd, Debug)]
 pub struct PublicKey<L: Level> {
     pub(crate) bytes: L::PublicKey,
