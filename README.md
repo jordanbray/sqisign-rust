@@ -11,6 +11,12 @@ This library makes the (opinionated) choice to only build the `broadwell`
 version of the official library.  This needs to be corrected at some point, as
 this only supports some processors.
 
+## Warning: not published on crates.io yet
+
+This library has not been published on `crates.io` yet.  I intend to publish it
+once I am more comfortable that it will build in esoteric configurations, such
+as those using Windows (or WebAssembly, ARM, old x86, etc).
+
 ## Why?
 
 There are many reasons to get post-quantum cryptography in the hands of users
