@@ -35,8 +35,10 @@ Building this (right now) is somewhat complicated.  That's because:
    as well.
 
 To accomplish this, I recommend checking out this repository, then
-performing the following steps.  Doing the following will fail if you do it
-wrong.
+performing the following steps.  The following code was carefully crafted
+to fail (on purpose) if you somehow mess up the steps.
+
+This will be unnecessary once PR 7 is merged.
 
 ```bash
 cd the-sqisign
