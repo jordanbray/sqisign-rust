@@ -2,7 +2,7 @@ use crate::{Error, Level, PrivateKey, PublicKey, Result};
 
 use crate::thesqisign::randombytes_init;
 
-/// This stores a lvl1 SQISign `KeyPair`, which is both a public key and a
+/// This stores a SQISign `KeyPair`, which is both a public key and a
 /// private key.
 #[derive(Copy, Clone, PartialEq, PartialOrd, Debug)]
 pub struct KeyPair<L: Level> {
