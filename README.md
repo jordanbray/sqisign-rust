@@ -146,3 +146,7 @@ on this library.
    getting _only_ the signature from the official library, which this crate does
    manually.  These are only available in PR 7, which we use.
 5. ☐ Verify Safety - This library needs to be looked over by experts.
+6. ☐ Serde? ThisError? - Should I add impls (behind a feature gate) for common
+   rust libraries?
+5. ☐ nostd? - Can this even be no-std compatible with the C wrappers?  Maybe
+   not, but we should at least document why.
