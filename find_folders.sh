@@ -8,7 +8,6 @@
 # ended up in, so that the linker can locate them all.  It then
 # outputs them in a way that is compatible with the `build.rs` file
 # from rust.
-#
 # 
 # WARNING: this does _not_ find the GMP library.  If you build your
 # own `build.rs`, you will need to manually add GMP somehow.

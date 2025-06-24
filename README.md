@@ -90,7 +90,7 @@ This library also exposes 4 types to the user which contains useful data:
 * `KeyPair<Level>` - Generate a `PublicKey<Level>` and `PrivateKey<Level>` using
                      a 48 byte seed.
 * `PublicKey<Level>` - This stores the public key.
-* `PrivateKey<Level>` - This stores a private key, and contains the `sign` method.
+* `PrivateKey<Level>` - This stores a private key, and contains the `sign` function.
 * `Signature<Level>` - This stores a signature, and contains the `verify` function.
 
 In addition, `PublicKey<Level>`, `PrivateKey<Level>` and `Signature<Level>` all contain
